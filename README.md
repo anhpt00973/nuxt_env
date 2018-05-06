@@ -1,4 +1,4 @@
-# sample
+# Nuxt.js 環境毎に.envを設定するテンプレート
 
 > Nuxt.js project
 
@@ -15,8 +15,21 @@ $ npm run dev
 $ npm run build
 $ npm start
 
-# generate static project
-$ npm run generate
+# generate static project staging
+$ npm run generate:staging
+
+# generate static project production
+$ npm run generate:production
+
 ```
+
+## 推奨設定
+
+以下、4ファイルは.gitignoreへ記載されることを推奨します。
+.env
+env/.env_development
+env/.env_staging
+env/.env_production
+
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
