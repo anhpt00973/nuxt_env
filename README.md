@@ -26,10 +26,10 @@ $ npm run generate:production
 ## 推奨設定
 
 以下、4ファイルは.gitignoreへ記載されることを推奨します。
-.env
-env/.env_development
-env/.env_staging
-env/.env_production
+- .env
+- env/.env_development
+- env/.env_staging
+- env/.env_production
 
 
 For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
